@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "*/build": true,
+        ".internal": true,
+        // ".vscode": true,
+        "**/*.font": true,
+        "**/*.gui": true,
+        // "*.gui": true,
+        "**/*.collection": true,
+        "**/*.go": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    }
+}

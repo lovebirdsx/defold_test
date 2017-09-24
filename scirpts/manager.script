@@ -1,0 +1,7 @@
+function init(self)
+	msg.post('foo', 'status')
+	msg.post('foo', 'update')
+	msg.post('foo', 'status')
+
+	msg.post('foo#script2', 'only_to_script2')
+end

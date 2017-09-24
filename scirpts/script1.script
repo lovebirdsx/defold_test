@@ -1,0 +1,12 @@
+go.property('speed', 0)
+go.property('name', hash('foo'))
+
+function on_message(self, message_id, message, sender)	
+	if message_id == hash('status') then
+		print('scirpt1:', message_id, sender)
+		print('name', self.name)
+		print('speed', self.speed)
+	else
+		print('script1: unkown message', message_id)
+	end
+end

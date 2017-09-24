@@ -1,0 +1,18 @@
+images {
+  image: "/combo/c2.png"
+}
+images {
+  image: "/combo/combo.png"
+}
+images {
+  image: "/combo/FLight_01_Blue.png"
+}
+images {
+  image: "/combo/FLight_01_yellow.png"
+}
+images {
+  image: "/combo/c3.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0

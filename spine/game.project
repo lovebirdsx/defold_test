@@ -1,0 +1,14 @@
+[project]
+title = Scripts
+custom_resources = 
+
+[bootstrap]
+main_collection = /combo/combo.collectionc
+render = /builtins/render/default.renderc
+
+[display]
+variable_dt = 1
+
+[script]
+shared_state = 1
+

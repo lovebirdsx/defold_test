@@ -1,0 +1,7 @@
+function on_message(self, message_id, message, sender)
+	if message_id == hash('update') then
+		go.set('#script1', 'speed', go.get('#script1', 'speed') + 1)
+	else
+		print('script2: unkown message', message_id)
+	end
+end
