@@ -1,0 +1,7 @@
+function on_message(self, message_id, message, sender)
+	if message_id == hash('show') then
+		msg.post('/gui', 'enable')
+	elseif message_id == hash('hide') then
+		msg.post('/gui', 'disable')
+	end
+end

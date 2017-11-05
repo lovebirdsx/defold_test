@@ -1,0 +1,17 @@
+[project]
+title = Scripts
+custom_resources = 
+
+[bootstrap]
+main_collection = /controller/controller.collectionc
+render = /builtins/render/default.renderc
+
+[display]
+variable_dt = 1
+
+[script]
+shared_state = 1
+
+[input]
+game_binding = /input/game.input_bindingc
+
